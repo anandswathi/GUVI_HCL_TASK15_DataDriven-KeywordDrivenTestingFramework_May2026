@@ -1,0 +1,51 @@
+2026-05-21 19:15:45 | INFO     | conftest                       | ======================================================================
+2026-05-21 19:15:45 | INFO     | conftest                       | Launching Chrome browser
+2026-05-21 19:15:45 | INFO     | conftest                       | Browser launched successfully
+2026-05-21 19:15:51 | INFO     | conftest                       | PASSED  : tests/test_login_ddtf.py::TestLoginDDTF::test_login_with_excel_data[TC_01]
+2026-05-21 19:15:51 | INFO     | conftest                       | Closing browser
+2026-05-21 19:15:53 | INFO     | conftest                       | Browser closed
+2026-05-21 19:15:53 | INFO     | conftest                       | ======================================================================
+2026-05-21 19:15:53 | INFO     | conftest                       | ======================================================================
+2026-05-21 19:15:53 | INFO     | conftest                       | Launching Chrome browser
+2026-05-21 19:15:54 | INFO     | conftest                       | Browser launched successfully
+2026-05-21 19:16:08 | ERROR    | conftest                       | TEST FAILED : tests/test_login_ddtf.py::TestLoginDDTF::test_login_with_excel_data[TC_02]
+2026-05-21 19:16:08 | ERROR    | conftest                       | Current URL : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-21 19:16:08 | ERROR    | conftest                       | Screenshot  : C:\Users\Swathi Anand\PycharmProjects\GUVI_HCL_TASK15_DataDriven&KeywordDrivenTestingFramework_May2026\screenshots\FAIL_tests_test_login_ddtf.py_TestLoginDDTF_test_login_with_excel_data[TC_02].png
+2026-05-21 19:16:08 | INFO     | conftest                       | Screenshot added to HTML report
+2026-05-21 19:16:08 | ERROR    | conftest                       | FAILED  : tests/test_login_ddtf.py::TestLoginDDTF::test_login_with_excel_data[TC_02]
+2026-05-21 19:16:08 | INFO     | conftest                       | Closing browser
+2026-05-21 19:16:11 | INFO     | conftest                       | Browser closed
+2026-05-21 19:16:11 | INFO     | conftest                       | ======================================================================
+2026-05-21 19:16:11 | INFO     | conftest                       | ======================================================================
+2026-05-21 19:16:11 | INFO     | conftest                       | Launching Chrome browser
+2026-05-21 19:16:11 | INFO     | conftest                       | Browser launched successfully
+2026-05-21 19:16:27 | ERROR    | conftest                       | TEST FAILED : tests/test_login_ddtf.py::TestLoginDDTF::test_login_with_excel_data[TC_03]
+2026-05-21 19:16:27 | ERROR    | conftest                       | Current URL : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-21 19:16:27 | ERROR    | conftest                       | Screenshot  : C:\Users\Swathi Anand\PycharmProjects\GUVI_HCL_TASK15_DataDriven&KeywordDrivenTestingFramework_May2026\screenshots\FAIL_tests_test_login_ddtf.py_TestLoginDDTF_test_login_with_excel_data[TC_03].png
+2026-05-21 19:16:27 | INFO     | conftest                       | Screenshot added to HTML report
+2026-05-21 19:16:27 | ERROR    | conftest                       | FAILED  : tests/test_login_ddtf.py::TestLoginDDTF::test_login_with_excel_data[TC_03]
+2026-05-21 19:16:27 | INFO     | conftest                       | Closing browser
+2026-05-21 19:16:30 | INFO     | conftest                       | Browser closed
+2026-05-21 19:16:30 | INFO     | conftest                       | ======================================================================
+2026-05-21 19:16:30 | INFO     | conftest                       | ======================================================================
+2026-05-21 19:16:30 | INFO     | conftest                       | Launching Chrome browser
+2026-05-21 19:16:31 | INFO     | conftest                       | Browser launched successfully
+2026-05-21 19:16:47 | ERROR    | conftest                       | TEST FAILED : tests/test_login_ddtf.py::TestLoginDDTF::test_login_with_excel_data[TC_04]
+2026-05-21 19:16:47 | ERROR    | conftest                       | Current URL : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-21 19:16:47 | ERROR    | conftest                       | Screenshot  : C:\Users\Swathi Anand\PycharmProjects\GUVI_HCL_TASK15_DataDriven&KeywordDrivenTestingFramework_May2026\screenshots\FAIL_tests_test_login_ddtf.py_TestLoginDDTF_test_login_with_excel_data[TC_04].png
+2026-05-21 19:16:47 | INFO     | conftest                       | Screenshot added to HTML report
+2026-05-21 19:16:47 | ERROR    | conftest                       | FAILED  : tests/test_login_ddtf.py::TestLoginDDTF::test_login_with_excel_data[TC_04]
+2026-05-21 19:16:47 | INFO     | conftest                       | Closing browser
+2026-05-21 19:16:49 | INFO     | conftest                       | Browser closed
+2026-05-21 19:16:49 | INFO     | conftest                       | ======================================================================
+2026-05-21 19:16:49 | INFO     | conftest                       | ======================================================================
+2026-05-21 19:16:49 | INFO     | conftest                       | Launching Chrome browser
+2026-05-21 19:16:50 | INFO     | conftest                       | Browser launched successfully
+2026-05-21 19:17:05 | ERROR    | conftest                       | TEST FAILED : tests/test_login_ddtf.py::TestLoginDDTF::test_login_with_excel_data[TC_05]
+2026-05-21 19:17:05 | ERROR    | conftest                       | Current URL : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-21 19:17:05 | ERROR    | conftest                       | Screenshot  : C:\Users\Swathi Anand\PycharmProjects\GUVI_HCL_TASK15_DataDriven&KeywordDrivenTestingFramework_May2026\screenshots\FAIL_tests_test_login_ddtf.py_TestLoginDDTF_test_login_with_excel_data[TC_05].png
+2026-05-21 19:17:05 | INFO     | conftest                       | Screenshot added to HTML report
+2026-05-21 19:17:05 | ERROR    | conftest                       | FAILED  : tests/test_login_ddtf.py::TestLoginDDTF::test_login_with_excel_data[TC_05]
+2026-05-21 19:17:05 | INFO     | conftest                       | Closing browser
+2026-05-21 19:17:08 | INFO     | conftest                       | Browser closed
+2026-05-21 19:17:08 | INFO     | conftest                       | ======================================================================

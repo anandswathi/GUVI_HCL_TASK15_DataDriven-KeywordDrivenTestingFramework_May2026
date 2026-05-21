@@ -1,0 +1,171 @@
+2026-05-21 19:15:45 | INFO     | utils.excel_utils              | Reading Excel file: C:\Users\Swathi Anand\PycharmProjects\GUVI_HCL_TASK15_DataDriven&KeywordDrivenTestingFramework_May2026\utils\..\data\login_test_data.xlsx
+2026-05-21 19:15:45 | DEBUG    | utils.excel_utils              | Loaded row 2 → TC_01
+2026-05-21 19:15:45 | DEBUG    | utils.excel_utils              | Loaded row 3 → TC_02
+2026-05-21 19:15:45 | DEBUG    | utils.excel_utils              | Loaded row 4 → TC_03
+2026-05-21 19:15:45 | DEBUG    | utils.excel_utils              | Loaded row 5 → TC_04
+2026-05-21 19:15:45 | DEBUG    | utils.excel_utils              | Loaded row 6 → TC_05
+2026-05-21 19:15:45 | INFO     | utils.excel_utils              | Total rows loaded: 5
+2026-05-21 19:15:45 | INFO     | test_login_ddtf                | ======================================================================
+2026-05-21 19:15:45 | INFO     | test_login_ddtf                | Starting Test : TC_01
+2026-05-21 19:15:45 | INFO     | test_login_ddtf                | Username      : Admin
+2026-05-21 19:15:45 | INFO     | test_login_ddtf                | Password      : ***
+2026-05-21 19:15:45 | INFO     | test_login_ddtf                | Tester        : Swathi Anand
+2026-05-21 19:15:45 | INFO     | test_login_ddtf                | Excel Row     : 2
+2026-05-21 19:15:45 | INFO     | pages.login_page               | Opening login page
+2026-05-21 19:15:45 | INFO     | pages.login_page               | Opening URL: https://opensource-demo.orangehrmlive.com
+2026-05-21 19:15:49 | INFO     | pages.login_page               | Waiting for visible element: ('xpath', "//input[@name='username']")
+2026-05-21 19:15:49 | INFO     | pages.login_page               | Current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-21 19:15:49 | INFO     | test_login_ddtf                | Application Opened : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-21 19:15:49 | INFO     | pages.login_page               | Performing login
+2026-05-21 19:15:49 | INFO     | pages.login_page               | Entering username: Admin
+2026-05-21 19:15:49 | INFO     | pages.login_page               | Typing 'Admin' into Username
+2026-05-21 19:15:49 | INFO     | pages.login_page               | Waiting for visible element: ('xpath', "//input[@name='username']")
+2026-05-21 19:15:49 | INFO     | pages.login_page               | Entering password
+2026-05-21 19:15:49 | INFO     | pages.login_page               | Typing '***' into Password
+2026-05-21 19:15:49 | INFO     | pages.login_page               | Waiting for visible element: ('xpath', "//input[@name='password']")
+2026-05-21 19:15:49 | INFO     | pages.login_page               | Clicking Login button
+2026-05-21 19:15:49 | INFO     | pages.login_page               | Clicking element: ('xpath', "//button[@type='submit']")
+2026-05-21 19:15:49 | INFO     | pages.login_page               | Waiting for clickable element: ('xpath', "//button[@type='submit']")
+2026-05-21 19:15:51 | INFO     | test_login_ddtf                | Login form submitted
+2026-05-21 19:15:51 | INFO     | pages.login_page               | Waiting for URL to contain: dashboard
+2026-05-21 19:15:51 | INFO     | pages.login_page               | Login successful
+2026-05-21 19:15:51 | INFO     | utils.excel_utils              | Writing result 'Test Passed' to row 2
+2026-05-21 19:15:51 | INFO     | utils.excel_utils              | Row 2 → PASS
+2026-05-21 19:15:51 | INFO     | utils.excel_utils              | Excel updated successfully
+2026-05-21 19:15:51 | INFO     | test_login_ddtf                | Test Result   : Test Passed
+2026-05-21 19:15:51 | INFO     | pages.login_page               | Current URL: https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+2026-05-21 19:15:51 | INFO     | test_login_ddtf                | Final URL     : https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+2026-05-21 19:15:51 | INFO     | test_login_ddtf                | ======================================================================
+2026-05-21 19:15:51 | INFO     | test_login_ddtf                | TC_01 PASSED - Login successful
+2026-05-21 19:15:54 | INFO     | test_login_ddtf                | ======================================================================
+2026-05-21 19:15:54 | INFO     | test_login_ddtf                | Starting Test : TC_02
+2026-05-21 19:15:54 | INFO     | test_login_ddtf                | Username      : admin
+2026-05-21 19:15:54 | INFO     | test_login_ddtf                | Password      : ***
+2026-05-21 19:15:54 | INFO     | test_login_ddtf                | Tester        : Swathi Anand
+2026-05-21 19:15:54 | INFO     | test_login_ddtf                | Excel Row     : 3
+2026-05-21 19:15:54 | INFO     | pages.login_page               | Opening login page
+2026-05-21 19:15:54 | INFO     | pages.login_page               | Opening URL: https://opensource-demo.orangehrmlive.com
+2026-05-21 19:15:57 | INFO     | pages.login_page               | Waiting for visible element: ('xpath', "//input[@name='username']")
+2026-05-21 19:15:58 | INFO     | pages.login_page               | Current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-21 19:15:58 | INFO     | test_login_ddtf                | Application Opened : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-21 19:15:58 | INFO     | pages.login_page               | Performing login
+2026-05-21 19:15:58 | INFO     | pages.login_page               | Entering username: admin
+2026-05-21 19:15:58 | INFO     | pages.login_page               | Typing 'admin' into Username
+2026-05-21 19:15:58 | INFO     | pages.login_page               | Waiting for visible element: ('xpath', "//input[@name='username']")
+2026-05-21 19:15:58 | INFO     | pages.login_page               | Entering password
+2026-05-21 19:15:58 | INFO     | pages.login_page               | Typing '***' into Password
+2026-05-21 19:15:58 | INFO     | pages.login_page               | Waiting for visible element: ('xpath', "//input[@name='password']")
+2026-05-21 19:15:58 | INFO     | pages.login_page               | Clicking Login button
+2026-05-21 19:15:58 | INFO     | pages.login_page               | Clicking element: ('xpath', "//button[@type='submit']")
+2026-05-21 19:15:58 | INFO     | pages.login_page               | Waiting for clickable element: ('xpath', "//button[@type='submit']")
+2026-05-21 19:15:58 | INFO     | test_login_ddtf                | Login form submitted
+2026-05-21 19:15:58 | INFO     | pages.login_page               | Waiting for URL to contain: dashboard
+2026-05-21 19:16:08 | WARNING  | pages.login_page               | URL does not contain 'dashboard'
+2026-05-21 19:16:08 | WARNING  | pages.login_page               | Login failed
+2026-05-21 19:16:08 | INFO     | utils.excel_utils              | Writing result 'Test Failed' to row 3
+2026-05-21 19:16:08 | INFO     | utils.excel_utils              | Row 3 → FAIL
+2026-05-21 19:16:08 | INFO     | utils.excel_utils              | Excel updated successfully
+2026-05-21 19:16:08 | INFO     | test_login_ddtf                | Test Result   : Test Failed
+2026-05-21 19:16:08 | INFO     | pages.login_page               | Current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-21 19:16:08 | INFO     | test_login_ddtf                | Final URL     : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-21 19:16:08 | INFO     | test_login_ddtf                | ======================================================================
+2026-05-21 19:16:08 | INFO     | pages.login_page               | Current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-21 19:16:11 | INFO     | test_login_ddtf                | ======================================================================
+2026-05-21 19:16:11 | INFO     | test_login_ddtf                | Starting Test : TC_03
+2026-05-21 19:16:11 | INFO     | test_login_ddtf                | Username      : Admin
+2026-05-21 19:16:11 | INFO     | test_login_ddtf                | Password      : ***
+2026-05-21 19:16:11 | INFO     | test_login_ddtf                | Tester        : Swathi Anand
+2026-05-21 19:16:11 | INFO     | test_login_ddtf                | Excel Row     : 4
+2026-05-21 19:16:11 | INFO     | pages.login_page               | Opening login page
+2026-05-21 19:16:11 | INFO     | pages.login_page               | Opening URL: https://opensource-demo.orangehrmlive.com
+2026-05-21 19:16:15 | INFO     | pages.login_page               | Waiting for visible element: ('xpath', "//input[@name='username']")
+2026-05-21 19:16:15 | INFO     | pages.login_page               | Current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-21 19:16:15 | INFO     | test_login_ddtf                | Application Opened : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-21 19:16:15 | INFO     | pages.login_page               | Performing login
+2026-05-21 19:16:15 | INFO     | pages.login_page               | Entering username: Admin
+2026-05-21 19:16:15 | INFO     | pages.login_page               | Typing 'Admin' into Username
+2026-05-21 19:16:15 | INFO     | pages.login_page               | Waiting for visible element: ('xpath', "//input[@name='username']")
+2026-05-21 19:16:15 | INFO     | pages.login_page               | Entering password
+2026-05-21 19:16:15 | INFO     | pages.login_page               | Typing '***' into Password
+2026-05-21 19:16:15 | INFO     | pages.login_page               | Waiting for visible element: ('xpath', "//input[@name='password']")
+2026-05-21 19:16:15 | INFO     | pages.login_page               | Clicking Login button
+2026-05-21 19:16:15 | INFO     | pages.login_page               | Clicking element: ('xpath', "//button[@type='submit']")
+2026-05-21 19:16:15 | INFO     | pages.login_page               | Waiting for clickable element: ('xpath', "//button[@type='submit']")
+2026-05-21 19:16:16 | INFO     | test_login_ddtf                | Login form submitted
+2026-05-21 19:16:16 | INFO     | pages.login_page               | Waiting for URL to contain: dashboard
+2026-05-21 19:16:26 | WARNING  | pages.login_page               | URL does not contain 'dashboard'
+2026-05-21 19:16:26 | WARNING  | pages.login_page               | Login failed
+2026-05-21 19:16:26 | INFO     | utils.excel_utils              | Writing result 'Test Failed' to row 4
+2026-05-21 19:16:26 | INFO     | utils.excel_utils              | Row 4 → FAIL
+2026-05-21 19:16:26 | INFO     | utils.excel_utils              | Excel updated successfully
+2026-05-21 19:16:26 | INFO     | test_login_ddtf                | Test Result   : Test Failed
+2026-05-21 19:16:27 | INFO     | pages.login_page               | Current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-21 19:16:27 | INFO     | test_login_ddtf                | Final URL     : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-21 19:16:27 | INFO     | test_login_ddtf                | ======================================================================
+2026-05-21 19:16:27 | INFO     | pages.login_page               | Current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-21 19:16:31 | INFO     | test_login_ddtf                | ======================================================================
+2026-05-21 19:16:31 | INFO     | test_login_ddtf                | Starting Test : TC_04
+2026-05-21 19:16:31 | INFO     | test_login_ddtf                | Username      : 
+2026-05-21 19:16:31 | INFO     | test_login_ddtf                | Password      : ***
+2026-05-21 19:16:31 | INFO     | test_login_ddtf                | Tester        : Swathi Anand
+2026-05-21 19:16:31 | INFO     | test_login_ddtf                | Excel Row     : 5
+2026-05-21 19:16:31 | INFO     | pages.login_page               | Opening login page
+2026-05-21 19:16:31 | INFO     | pages.login_page               | Opening URL: https://opensource-demo.orangehrmlive.com
+2026-05-21 19:16:36 | INFO     | pages.login_page               | Waiting for visible element: ('xpath', "//input[@name='username']")
+2026-05-21 19:16:36 | INFO     | pages.login_page               | Current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-21 19:16:36 | INFO     | test_login_ddtf                | Application Opened : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-21 19:16:36 | INFO     | pages.login_page               | Performing login
+2026-05-21 19:16:36 | INFO     | pages.login_page               | Entering username: 
+2026-05-21 19:16:36 | INFO     | pages.login_page               | Typing '' into Username
+2026-05-21 19:16:36 | INFO     | pages.login_page               | Waiting for visible element: ('xpath', "//input[@name='username']")
+2026-05-21 19:16:36 | INFO     | pages.login_page               | Entering password
+2026-05-21 19:16:36 | INFO     | pages.login_page               | Typing '***' into Password
+2026-05-21 19:16:36 | INFO     | pages.login_page               | Waiting for visible element: ('xpath', "//input[@name='password']")
+2026-05-21 19:16:36 | INFO     | pages.login_page               | Clicking Login button
+2026-05-21 19:16:36 | INFO     | pages.login_page               | Clicking element: ('xpath', "//button[@type='submit']")
+2026-05-21 19:16:36 | INFO     | pages.login_page               | Waiting for clickable element: ('xpath', "//button[@type='submit']")
+2026-05-21 19:16:37 | INFO     | test_login_ddtf                | Login form submitted
+2026-05-21 19:16:37 | INFO     | pages.login_page               | Waiting for URL to contain: dashboard
+2026-05-21 19:16:47 | WARNING  | pages.login_page               | URL does not contain 'dashboard'
+2026-05-21 19:16:47 | WARNING  | pages.login_page               | Login failed
+2026-05-21 19:16:47 | INFO     | utils.excel_utils              | Writing result 'Test Failed' to row 5
+2026-05-21 19:16:47 | INFO     | utils.excel_utils              | Row 5 → FAIL
+2026-05-21 19:16:47 | INFO     | utils.excel_utils              | Excel updated successfully
+2026-05-21 19:16:47 | INFO     | test_login_ddtf                | Test Result   : Test Failed
+2026-05-21 19:16:47 | INFO     | pages.login_page               | Current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-21 19:16:47 | INFO     | test_login_ddtf                | Final URL     : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-21 19:16:47 | INFO     | test_login_ddtf                | ======================================================================
+2026-05-21 19:16:47 | INFO     | pages.login_page               | Current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-21 19:16:50 | INFO     | test_login_ddtf                | ======================================================================
+2026-05-21 19:16:50 | INFO     | test_login_ddtf                | Starting Test : TC_05
+2026-05-21 19:16:50 | INFO     | test_login_ddtf                | Username      : invaliduser
+2026-05-21 19:16:50 | INFO     | test_login_ddtf                | Password      : ***
+2026-05-21 19:16:50 | INFO     | test_login_ddtf                | Tester        : Swathi Anand
+2026-05-21 19:16:50 | INFO     | test_login_ddtf                | Excel Row     : 6
+2026-05-21 19:16:50 | INFO     | pages.login_page               | Opening login page
+2026-05-21 19:16:50 | INFO     | pages.login_page               | Opening URL: https://opensource-demo.orangehrmlive.com
+2026-05-21 19:16:54 | INFO     | pages.login_page               | Waiting for visible element: ('xpath', "//input[@name='username']")
+2026-05-21 19:16:55 | INFO     | pages.login_page               | Current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-21 19:16:55 | INFO     | test_login_ddtf                | Application Opened : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-21 19:16:55 | INFO     | pages.login_page               | Performing login
+2026-05-21 19:16:55 | INFO     | pages.login_page               | Entering username: invaliduser
+2026-05-21 19:16:55 | INFO     | pages.login_page               | Typing 'invaliduser' into Username
+2026-05-21 19:16:55 | INFO     | pages.login_page               | Waiting for visible element: ('xpath', "//input[@name='username']")
+2026-05-21 19:16:55 | INFO     | pages.login_page               | Entering password
+2026-05-21 19:16:55 | INFO     | pages.login_page               | Typing '***' into Password
+2026-05-21 19:16:55 | INFO     | pages.login_page               | Waiting for visible element: ('xpath', "//input[@name='password']")
+2026-05-21 19:16:55 | INFO     | pages.login_page               | Clicking Login button
+2026-05-21 19:16:55 | INFO     | pages.login_page               | Clicking element: ('xpath', "//button[@type='submit']")
+2026-05-21 19:16:55 | INFO     | pages.login_page               | Waiting for clickable element: ('xpath', "//button[@type='submit']")
+2026-05-21 19:16:55 | INFO     | test_login_ddtf                | Login form submitted
+2026-05-21 19:16:55 | INFO     | pages.login_page               | Waiting for URL to contain: dashboard
+2026-05-21 19:17:05 | WARNING  | pages.login_page               | URL does not contain 'dashboard'
+2026-05-21 19:17:05 | WARNING  | pages.login_page               | Login failed
+2026-05-21 19:17:05 | INFO     | utils.excel_utils              | Writing result 'Test Failed' to row 6
+2026-05-21 19:17:05 | INFO     | utils.excel_utils              | Row 6 → FAIL
+2026-05-21 19:17:05 | INFO     | utils.excel_utils              | Excel updated successfully
+2026-05-21 19:17:05 | INFO     | test_login_ddtf                | Test Result   : Test Failed
+2026-05-21 19:17:05 | INFO     | pages.login_page               | Current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-21 19:17:05 | INFO     | test_login_ddtf                | Final URL     : https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-05-21 19:17:05 | INFO     | test_login_ddtf                | ======================================================================
+2026-05-21 19:17:05 | INFO     | pages.login_page               | Current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
